@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name" translatable="false">Aaho Driver</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_you_are_at">Slums, Koyla Galli, Chandani Nagar, Bharatiya Kamala Nagar, Antop Hill, Mumbai, Maharashtra 400037, India</string>
+    <string name="btn_get_location">GET MY LOCATION</string>
+    <string name="btn_start_location_updates">In-transit</string>
+    <string name="btn_stop_location_updates">Free</string>
+
+    <!--Register Vehicle-->
+    <string name="vehicle_type">Type of Vehicle</string>
+    <string name="veh_number">Vehicle Number</string>
+    <string name="imei_number">IMEI Number</string>
+    <string name="driver_name">Driver Name</string>
+    <string name="mobile_number">Mobile Number</string>
+
+    <string name="loaded" translatable="false">Loaded</string>
+    <string name="unloaded" translatable="false">Unloaded</string>
+    <string name="loading" translatable="false">Loading&#8230;</string>
+    <string name="unloading" translatable="false">Unloading&#8230;</string>
+
+    <!-- Generic (typical ui texts, like 'ok', 'cancel' etc.) -->
+    <string name="ok">Ok</string>
+    <string name="quit">Quit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="register">Register</string>
+    <string name="_blank"></string>
+    <string name="register_success">Registration Successful</string>
+    <string name="edit_success">Edit Successful</string>
+    <string name="edit_registration">Edit Details</string>
+    <string name="call_us">Call Us</string>
+    <string name="send_action_logs">Send App Logs</string>
+
+    <!-- Permissions -->
+    <string name="perm_required">Permissions Required</string>
+    <string name="perms_request_msg">App requires certain permissions to function, please grant these permissions to continue</string>
+    <!-- Play Services -->
+    <string name="play_services">Play Services Required</string>
+    <string name="play_services_msg">App requires Google Play Services version >= 9.0.1 to function, please update to continue</string>
+    <!-- GPS Location -->
+    <string name="gps_request_title">GPS Required</string>
+    <string name="gps_request_msg">App needs GPS enabled to function, please enable it to continue</string>
+    <!-- truck status -->
+    <string name="confirm_action">Confirm Action</string>
+    <string name="action_status_change">Change the status to \'%s\'?</string>
+
+    <string name="progress_title">Waiting</string>
+    <string name="progress_msg">Waiting for server to respond...</string>
+</resources>

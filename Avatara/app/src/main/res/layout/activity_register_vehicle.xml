@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegisterVehicleActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:paddingBottom="70dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="1dp">
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:id="@+id/input_layout_vehicle_type"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+
+        <!--</android.support.design.widget.TextInputLayout>-->
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/input_layout_veh_num"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <EditText
+            android:id="@+id/input_veh_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/veh_number"
+            android:inputType="textMultiLine"
+            android:singleLine="true" />
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/input_layout_imei"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <EditText
+            android:id="@+id/input_vehicle_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/vehicle_type"
+            android:inputType="textMultiLine"
+            android:singleLine="true" />
+
+    <!--</android.support.design.widget.TextInputLayout>-->
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/input_layout_driver_name"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <EditText
+            android:id="@+id/input_driver_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/driver_name"
+            android:inputType="textMultiLine"
+            android:singleLine="true" />
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/input_layout_driver_phone_number"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <EditText
+            android:id="@+id/input_driver_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mobile_number"
+            android:inputType="textMultiLine"
+            android:singleLine="true" />
+    <!--</android.support.design.widget.TextInputLayout>-->
+    <Button
+        android:id="@+id/register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/register"
+        android:textColor="@android:color/white" />
+</LinearLayout>
+
+</RelativeLayout>
